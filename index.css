@@ -32,9 +32,51 @@ body {
 }
 
 p {
-  margin-bottom: 2rem;
   color: white;
   text-align: center;
+}
+
+.marcas {
+  display: flex;
+  align-items: center;
+}
+
+.marcas img {
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+#apple {
+  width: 4rem;
+  height: 2.5rem;
+}
+
+#samsung {
+  width: 3rem;
+  height: 3rem;
+}
+
+#xiaomi {
+  width: 3rem;
+  height: 3rem;
+}
+
+#motorola {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#lg {
+  width: 3rem;
+  height: 1.5rem;
+}
+
+.primeiro {
+  margin-bottom: 0.5rem;
+}
+
+.segundo {
+  margin-bottom: 0.5rem;
 }
 
 .botao {
@@ -43,6 +85,8 @@ p {
   border-radius: 2rem;
   border: 0.1rem solid black;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
 }
 
 .botao:hover {
@@ -53,6 +97,11 @@ p {
   text-decoration: none;
   color: black;
   font-style: italic;
+  margin-right: 0.5rem;
+}
+
+.botao img {
+  width: 1.3rem;
 }
 
 .consertos {
@@ -61,7 +110,7 @@ p {
 }
 
 .consertos img {
-  width: 6rem;
+  width: 7.5rem;
   margin: 0.2rem;
   box-shadow: 3px 5px 10px 0px rgba(0,0,0,0.75);
 }
@@ -72,8 +121,8 @@ p {
 }
 
 .comentarios img {
-  width: 19rem;
-  margin-bottom: 0.2rem;
+  width: 21rem;
+  margin-bottom: 1rem;
   box-shadow: 3px 9px 20px 0px rgba(0,0,0,0.75);
 }
 
