@@ -39,10 +39,11 @@ p {
 .marcas {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .marcas img {
-  margin-left: 1rem;
+  margin-right: 1rem;
   margin-bottom: 2rem;
 }
 
